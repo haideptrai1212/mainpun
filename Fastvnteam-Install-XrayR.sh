@@ -81,10 +81,10 @@ done
 clone_node(){
   clear
 #node type
- echo "---------- FASTVN TEAM ----------"
+ echo "---------- PUNPN.XYZ ----------"
  echo "--------- HANG A HAI ---------"
  echo "-------------------------------"
- echo "CHỌN GIAO THỨC CẦN CÀI  - 5GGIASINHVIEN.STORE -"
+ echo "CHỌN GIAO THỨC CẦN CÀI  - MINH GIANG VPN-"
  echo "-------------------------------"
  echo "------------ DEV MOD -----------"
  echo -e "[1] Vmess"
@@ -174,11 +174,11 @@ cat >>config.yml<<EOF
         CertDomain: "5gminhgiang.site" # Domain to cert
         CertFile: /etc/XrayR/5gminhgiang.crt # Provided if the CertMode is file
         KeyFile: /etc/XrayR/5gminhgiang.key
-        Provider: alidns # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+       Provider: cloudflare 
         Email: test@me.com
-        DNSEnv: # DNS ENV option used by DNS provider
-          ALICLOUD_ACCESS_KEY: aaa
-          ALICLOUD_SECRET_KEY: bbb
+        DNSEnv: 
+          CLOUDFLARE_EMAIL: hangahaidz@gmail.com
+          CLOUDFLARE_API_KEY: 2e0c18be6c4a3cffa211ec575a7be002c657316
 EOF
 
 #   sed -i "s|ApiHost: \"https://domain.com\"|ApiHost: \"${api_host}\"|" ./config.yml

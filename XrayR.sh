@@ -367,8 +367,8 @@ show_XrayR_version() {
 
 show_usage() {
     echo ''
-    echo "---------- FASTVN TEAM ----------"
-    echo "----------BUI THIEN BAN----------"
+    echo "---------- punpn.xyz ----------"
+    echo "----------ADMIN HAIDEPTRAI----------"
     echo "  Cách sử dụng tập lệnh quản lý XrayR: "
     echo "------------------------------------------"
     echo "  XrayR              - Hiển thị menu quản trị (nhiều chức năng hơn) "

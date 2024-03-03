@@ -183,8 +183,8 @@ install_XrayR() {
     ln -s /usr/bin/XrayR /usr/bin/xrayr # chữ thường tương thích
     chmod +x /usr/bin/xrayr
     echo -e ""
-    echo "---------- FASTVN TEAM ----------"
-    echo "--------- BUI THIEN BAN ---------"
+    echo "---------- punpn.xyz ----------"
+    echo "--------- ADMIN HAIDEPTRAI ---------"
     echo "  Cách sử dụng tập lệnh quản lý XrayR (tương thích với thực thi xrayr, không phân biệt chữ hoa chữ thường): "
     echo "------------------------------------------"
     echo "  XrayR                    - Hiển thị menu quản lý (với nhiều chức năng hơn)"
